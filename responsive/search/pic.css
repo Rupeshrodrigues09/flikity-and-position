@@ -1,0 +1,129 @@
+body{
+  /* background-image:url("assets\lake.jpg"); */
+  background-repeat:no-repeat;
+  height: auto;
+  width: 100%;
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+#section1{
+   text-align: center;
+  border: 1px transparent green;
+}
+#section1:hover{
+  transform: rotate(360deg);
+  transition: width 2s, height 2s, transform 2s;
+  transition-timing-function: linear;
+  position: relative;
+  z-index: 50;
+  box-shadow: 15px 15px 15px 15px black;
+}
+.button1 {
+  background-color: #60bedd25;
+  border: 2px solid #60bedd25;
+}
+.button1:hover {
+  background-color: #2884b9;
+  color: white;
+}
+.button2 {
+  background-color: #008CBA;
+  padding: 12px 28px;
+}
+.button3{
+  padding: 14px 40px;
+  background-color: #008CBA;
+}
+.button3:hover{
+  z-index: 3;
+}
+.class{
+  padding: 10px;
+}
+#section2{
+  text-align: center;
+}
+#section3{
+  text-align: center;
+ background-color: rgba(184, 154, 154, 0.349);
+}
+#section4{
+  
+  background-image: url("water.webp");
+  background-repeat: no-repeat;
+  height:auto;
+  width:100%;
+  background-size: 100% 100%;
+  text-align: center;
+}
+#section6{
+  background-image: url("hurricane.jpg");
+  background-repeat: no-repeat;
+  height:auto;
+  width:100%;
+  background-size: 100% 100%;
+  text-align: center;
+  color: rgb(0, 3, 5);
+}
+#section5{
+  
+  background-color: antiquewhite;
+  text-align: center;
+}
+#section5:hover{
+  position: relative;
+  z-index: 50;
+  box-shadow: 15px 15px 15px 15px black;
+}
+.nil{
+ width: 100%;
+}
+
+.hello{
+  
+  border-radius: 50%;
+  
+}
+.bottle{
+  display: inline;
+}
+.bottlee{
+  display: inline;
+}
+#section7{
+  text-align: center;
+  /* position: relative;
+  z-index: -1; */
+}
+
+#section8{
+  background-color: azure;
+  color: rgb(238, 222, 222);
+}
+
+
+.navbar-toggler{
+ color: #008CBA;
+}
+
+
+
+
+.item:hover{
+  border: 2px transparent;
+  z-index: 2;
+  box-shadow: 5px 5px 5px 5px black;
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: width 2s, height 2s, transform 2s;
+  transition-timing-function: linear;
+}
+.space {
+  display: inline;
+  padding: 10px;
+  
+}
+
+#section8{
+  text-align: center;
+}

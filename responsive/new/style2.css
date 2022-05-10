@@ -1,0 +1,56 @@
+ *{
+     margin:0;
+     padding: 0;
+ }
+ html{ 
+    height: 100%;
+    
+} 
+body{
+    height:100%;
+    background-image: url(assets/adventure-2528477_1280.jpg);
+    background-repeat: no-repeat;
+    /* width: auto; */
+  height: 100%;
+background-attachment: fixed;
+  /* background-size: 100% 100%; */
+  background-size: cover !important;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -webkit-background-size:cover;
+  /* background-position: center center; */
+}
+
+.navbar-brand{
+    font-size: 40px;
+    color: aliceblue;
+}
+a:link{
+    font-size: 40px;
+    color: rgb(168, 42, 42);
+}
+.navbar{
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+}
+
+.cofee{
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    margin: 10% 10%;
+}
+
+.offcanvas{
+    opacity:0.6;
+    height: 50%;
+    margin-top:10%;
+}
+
+.offcanvas-body{
+    font-weight: 300;
+}
+
